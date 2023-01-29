@@ -16,9 +16,9 @@
 }
 
 
-.body{
+    .body{
     font-family: 'Roboto', sans-serif;
- }
+    }
     .link{
         text-decoration: none;
     }
@@ -26,13 +26,13 @@
         list-style: none;
     }
 
-
-.header {}
+/*------------------HEADER----------------*/
+    .header {}
 
     .header-navigation {}
 
     .header-logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -45,7 +45,7 @@
     }
 
     .blue-word{
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -76,8 +76,6 @@
 
      .header-amail {
          font-family: 'Roboto';
-         font-style: normal;
-         font-weight: 400;
          font-size: 16px;
          line-height: 1.5;
           letter-spacing: 0.02em;
@@ -90,8 +88,6 @@
         }
     .header-tel {
         font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 1,5;
         letter-spacing: 0.02em;
@@ -102,7 +98,9 @@
     {
         color: tomato;
     }
- .section1-fone {
+
+/*------------------SECTION 1----------------*/
+    .section1-fone {
         background: #2E2F42;
     }
 
@@ -117,7 +115,7 @@
     }
 
     .section1-btn{
-        font-family: inherit;
+        font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;    
@@ -126,13 +124,15 @@
         letter-spacing: 0.04em;
         color: #FFFFFF;
         background-color: #4D5AE5;
+        cursor: pointer;
     }
     .section1-btn:hover,
     .section1-btn:focus 
     {
         color: tomato;
     }
-.section2 {}
+    /*------------------SECTION 2----------------*/
+    .section2 {}
 
     .section2-list {
     }
@@ -149,13 +149,13 @@
     }
 
     .section2-tille {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;    
         color: #434455;
     }
-.section3 {}
+     /*------------------SECTION 3----------------*/
+    .section3 {}
 
     .section3-caption {
         font-weight: 700;
@@ -167,16 +167,16 @@
         color: #2E2F42;
     }
 
-    .section3-items {}
-
     .section3-list {}
+
+    .section3-item {}
 
     .section3-img {
         width: 360px;
         height: 300px;
     }
-
-.section4 {}
+     /*------------------SECTION 4----------------*/
+    .section4 {}
 
     .section4-title {
         font-weight: 700;
@@ -187,16 +187,14 @@
         text-transform: capitalize;
         color: #2E2F42;
     }
-
     .section4-list {}
 
-    .section4-iten {}
+    .section4-item {}
 
     .section4-img {
         width: 264px;
         height: 260px;
     }
-
     .section4-items {
         font-weight: 500;
         font-size: 20px;
@@ -205,48 +203,42 @@
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
-
     .section4-desc {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
         color: #434455;}
-
- .footer-fone {
+    /*------------------FOOTER---------------*/
+    .footer-fone {
             background: #2E2F42;
          }
 
      .footer-logo {
-        font-family: 'Raleway';
+        font-family: 'Raleway',sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #F4F4FD;
     }
-
-
     .footer-blue-word {
-        font-family: 'Raleway';
+        font-family: 'Raleway',sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         display: flex;
         align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4D5AE5;
     }
-
     .footer-text {
-        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
