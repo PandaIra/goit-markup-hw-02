@@ -68,38 +68,55 @@
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
+    .header-link:hover,
+    .header-link:focus
+    {
+        color: tomato;
+    }
 
+     .header-amail {
+         font-family: 'Roboto';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 1.5;
+          letter-spacing: 0.02em;
+         color: #434455;
+        }
+        .header-amail:hover ,
+        .header-amail:focus
+        {
+            color: tomato;
+        }
     .header-tel {
+        font-family: 'Roboto';
+        font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1,5;
         letter-spacing: 0.02em;
         color: #434455;
     }
-
-    .header-amail {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    .header-tel:hover , 
+    .header-tel:focus
+    {
+        color: tomato;
     }
-
- .section1-fone{
-        color:  #2E2F42;
+ .section1-fone {
+        background: #2E2F42;
     }
 
 /*Effective Solutions for Your Business*/
     .section1-heading{
         font-weight: 700;
         font-size: 56px;
-        line-height: 60px;
+        line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
         color: #FFFFFF;
     }
 
-    .sektion1-btn{
+    .section1-btn{
         font-family: inherit;
         font-weight: 500;
         font-size: 16px;
@@ -110,6 +127,11 @@
         color: #FFFFFF;
         background-color: #4D5AE5;
     }
+    .section1-btn:hover,
+    .section1-btn:focus 
+    {
+        color: tomato;
+    }
 .section2 {}
 
     .section2-list {
@@ -119,7 +141,7 @@
     }
 
     .section2-items {
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -127,7 +149,7 @@
     }
 
     .section2-tille {
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;    
@@ -149,7 +171,10 @@
 
     .section3-list {}
 
-    .section3-img {}
+    .section3-img {
+        width: 360px;
+        height: 300px;
+    }
 
 .section4 {}
 
@@ -167,10 +192,13 @@
 
     .section4-iten {}
 
-    .section4-img {}
+    .section4-img {
+        width: 264px;
+        height: 260px;
+    }
 
     .section4-items {
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         text-align: center;
@@ -178,7 +206,8 @@
         color: #2E2F42;
     }
 
-    .section4-desc {font-weight: 400;
+    .section4-desc {
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         text-align: center;
@@ -219,7 +248,7 @@
     .footer-text {
         font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         color: #E7E9FC;
     }
