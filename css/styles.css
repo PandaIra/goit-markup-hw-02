@@ -15,11 +15,19 @@
     src: url(../css/fons/Raleway-ExtraBold.ttf);
 }
 
+.root{
+    --main-title-color:#ffffff;
+    --text-color-link: #2e2f42;
+    --text-over:#434455;
+    --logo-blue-color:#4D5AE5;
+    --color-for-text-icon:#404bbf;
+
+
+}
     .body{
     font-family: Roboto-400, sans-serif;
-    background-color: #E5E5E5;
-    color: #2E2F42;
-    font-size: ;
+    background-color: var(--main-title-color);
+    color: var(--text-color-link);
     }
     .link{
         text-decoration: none;
@@ -38,14 +46,12 @@
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2E2F42;
     }
 
     .blue-word{
-        color: #4D5AE5;
+        color: var(--logo-blue-color);
     }
 
     .header-list {}
@@ -57,39 +63,36 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--text-color-link);
     }
     .header-link:hover,
     .header-link:focus
     {
-        color: tomato;
+        color: #404bbf;
     }
 
-     .header-amail {
-         font-family: 'Roboto';
-         font-size: 16px;
-         line-height: 1.5;
-          letter-spacing: 0.02em;
-         color: #434455;
+     .header-amail{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-over);
         }
         .header-amail:hover ,
         .header-amail:focus
         {
-            color: tomato;
+        color: #404bbf;
         }
     .header-tel {
-        font-family: 'Roboto';
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: var(--text-over);
     }
     .header-tel:hover , 
     .header-tel:focus
     {
-        color: tomato;
+        color: #404bbf;
     }
-
 /*------------------SECTION 1----------------*/
     .section1-fone {
         background: #2E2F42;
@@ -102,7 +105,7 @@
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #FFFFFF;
+        color: #ffffff;
     }
 
     .section1-btn{
@@ -112,14 +115,14 @@
         line-height: 1.5; 
         align-items: center;
         letter-spacing: 0.04em;
-        color: #FFFFFF;
+        color: #ffffff;
         background-color: #4D5AE5;
         cursor: pointer;
     }
     .section1-btn:hover,
     .section1-btn:focus 
     {
-        color: tomato;
+        color: var(--color-for-text-icon);
     }
     /*------------------SECTION 2----------------*/
     .section2 {}
@@ -135,14 +138,14 @@
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--text-color-link);
     }
 
     .section2-tille {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;    
-        color: #434455;
+        color: var(--text-over);
     }
      /*------------------SECTION 3----------------*/
     .section3 {}
@@ -154,7 +157,7 @@
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;    
-        color: #2E2F42;
+        color: var(--text-color-link);
     }
 
     .section3-list {}
@@ -177,7 +180,7 @@
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: #2E2F42;
+        color: var(--text-color-link);
     }
     .section4-list {}
 
@@ -193,14 +196,15 @@
         line-height: 1.2;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #2E2F42;
+        color: var(--text-color-link);
     }
     .section4-desc {
         font-size: 16px;
         line-height: 1.5;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #434455;}
+        color: var(--text-over);
+    }
     /*------------------FOOTER---------------*/
     .footer-fone {
             background: #2E2F42;
@@ -219,16 +223,7 @@
         color: #F4F4FD;
     }
     .footer-blue-word {
-        font-family: 'Raleway',sans-serif;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #4D5AE5;
+        color: var(--logo-blue-color);
     }
     .footer-text {
         font-size: 16px;
