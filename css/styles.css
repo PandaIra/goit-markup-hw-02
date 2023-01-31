@@ -1,30 +1,18 @@
-@font-face {
-    font-family: Roboto-400;
-    src: url(../css/fons/Roboto-Regular.ttf);
-}
-@font-face {
-    font-family: Roboto-500;
-    src: url(../css/fons/Roboto-Medium.ttf);
-}
-@font-face {
-    font-family: Roboto-700;
-    src: url(../css/fons/Roboto-Bold.ttf);
-}
-@font-face {
-    font-family: Raleway-800;
-    src: url(../css/fons/Raleway-ExtraBold.ttf);
-}
-
-.root{
+:root{
     --main-title-color:#ffffff;
+    --main-color-text: #ffffff;
     --text-color-link: #2e2f42;
     --text-over:#434455;
     --logo-blue-color:#4D5AE5;
+    --main-color-fone-btm:#4D5AE5;
     --color-for-text-icon:#404bbf;
-
+    --main-section-fone: #2E2F42;
+    --text-color-footer:#F4F4FD;
+    --text-footer:#E7E9FC;
+    --section-fone-our-team:#F4F4FD;
 
 }
-    .body{
+    body{
     font-family: Roboto-400, sans-serif;
     background-color: var(--main-title-color);
     color: var(--text-color-link);
@@ -48,6 +36,7 @@
         line-height: 1.33;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+        color: var(--text-color-link);
     }
 
     .blue-word{
@@ -68,10 +57,11 @@
     .header-link:hover,
     .header-link:focus
     {
-        color: #404bbf;
+        color:  var(--color-for-text-icon);
     }
 
      .header-amail{
+        font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -80,9 +70,10 @@
         .header-amail:hover ,
         .header-amail:focus
         {
-        color: #404bbf;
+        color: var(--color-for-text-icon);
         }
     .header-tel {
+        font-style: normal;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -91,11 +82,11 @@
     .header-tel:hover , 
     .header-tel:focus
     {
-        color: #404bbf;
+        color:  var(--color-for-text-icon);
     }
 /*------------------SECTION 1----------------*/
     .section1-fone {
-        background: #2E2F42;
+        background: var(--main-section-fone);
     }
 
 /*Effective Solutions for Your Business*/
@@ -105,7 +96,7 @@
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color: #ffffff;
+        color: var(--main-color-text);
     }
 
     .section1-btn{
@@ -115,17 +106,30 @@
         line-height: 1.5; 
         align-items: center;
         letter-spacing: 0.04em;
-        color: #ffffff;
-        background-color: #4D5AE5;
+        color: var(--main-color-text);
+        background-color: var(--main-color-fone-btm);
         cursor: pointer;
     }
     .section1-btn:hover,
     .section1-btn:focus 
     {
-        color: var(--color-for-text-icon);
+        background-color:   var(--color-for-text-icon);
     }
     /*------------------SECTION 2----------------*/
     .section2 {}
+
+    .visually-hidden{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
     .section2-list {
     }
@@ -170,7 +174,7 @@
     }
      /*------------------SECTION 4----------------*/
     .section4 {
-        background: #F4F4FD;
+        background: var(--section-fone-our-team);
     }
 
     .section4-title {
@@ -207,7 +211,7 @@
     }
     /*------------------FOOTER---------------*/
     .footer-fone {
-            background: #2E2F42;
+            background: var(--main-section-fone);
          }
 
      .footer-logo {
@@ -215,17 +219,16 @@
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
-        align-items: center;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #F4F4FD;
+        color: var(--text-color-footer);
     }
     .footer-blue-word {
-        color: #4D5AE5;
+        color: var(--logo-blue-color);
     }
     .footer-text {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #E7E9FC;
+        color: var(--text-footer);
     }
