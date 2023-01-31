@@ -12,6 +12,10 @@
     --section-fone-our-team:#F4F4FD;
 
 }
+:root{
+        --portfolio-another-btm-text: #4D5AE5;
+        --portfolio-another-btm-fone: #F4F4FD;
+}
     body{
     font-family: Roboto-400, sans-serif;
     background-color: var(--main-title-color);
@@ -232,3 +236,36 @@
         letter-spacing: 0.02em;
         color: var(--text-footer);
     }
+
+        /*------------------Portfolio---------------*/
+        .portfolio-section {}
+    
+        .visually-hidden {}
+    
+        .portfolio-section-btm {}
+    
+        .portfolio-list-btms {}
+
+        .main-btm-portfolio {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: var(--main-color-text);
+            background: #404BBF;
+            width: 69px;
+            height: 48px;
+        }
+        .main-btm-portfolio:hover,
+        .main-btm-portfolio:focus {
+            background-color: var(--color-for-text-icon);
+        }
+    
+        .another-btm-portfolio {
+            font-size: 16px;
+            line-height: 1.5;
+            text-align: center;
+            letter-spacing: 0.04em;
+            color: #4D5AE5;
+            background: #F4F4FD;
+        }
