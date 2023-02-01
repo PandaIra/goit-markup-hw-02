@@ -256,7 +256,7 @@
                 }
         .main-btm-portfolio:hover,
         .main-btm-portfolio:focus {
-            background-color: var(--color-for-btm-fone);
+            color: var(--color-for-btm-fone);
         }
     
         .another-btm-portfolio {
@@ -269,7 +269,7 @@
         }
         .another-btm-portfolio:hover,
         .another-btm-portfolio:focus {
-            background-color: var(--color-for-btm-fone);
+            color: var(--color-for-btm-fone);
         }
 
 
