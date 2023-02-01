@@ -10,11 +10,10 @@
     --text-color-footer:#F4F4FD;
     --text-footer:#E7E9FC;
     --section-fone-our-team:#F4F4FD;
-
-}
-:root{
-        --portfolio-another-btm-text: #4D5AE5;
-        --portfolio-another-btm-fone: #F4F4FD;
+    --color-for-btm-fone: #404BBF;
+    --portfolio-another-btm-text: #4D5AE5;
+    --portfolio-another-btm-fone: #F4F4FD;
+    --portfolio-section-fone: #E5E5E5;
 }
     body{
     font-family: Roboto-400, sans-serif;
@@ -238,7 +237,8 @@
     }
 
         /*------------------Portfolio---------------*/
-        .portfolio-section {}
+        .portfolio-section {
+        }
     
         .visually-hidden {}
     
@@ -252,13 +252,11 @@
             text-align: center;
             letter-spacing: 0.04em;
             color: var(--main-color-text);
-            background: #404BBF;
-            width: 69px;
-            height: 48px;
-        }
+            background : var(--color-for-btm-fone);
+                }
         .main-btm-portfolio:hover,
         .main-btm-portfolio:focus {
-            background-color: var(--color-for-text-icon);
+            background-color: var(--color-for-btm-fone);
         }
     
         .another-btm-portfolio {
@@ -266,6 +264,33 @@
             line-height: 1.5;
             text-align: center;
             letter-spacing: 0.04em;
-            color: #4D5AE5;
-            background: #F4F4FD;
+            color: var(--portfolio-another-btm-text);
+            background: var(--portfolio-another-btm-fone);
+        }
+        .another-btm-portfolio:hover,
+        .another-btm-portfolio:focus {
+            background-color: var(--color-for-btm-fone);
+        }
+
+
+
+        .portfolio-item {
+        }
+        
+        .portfolio-img {
+
+        }
+        
+        .portfolio-items {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;        
+        letter-spacing: 0.02em;
+        }
+        
+        .portfolio-desc {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--text-over);
         }
