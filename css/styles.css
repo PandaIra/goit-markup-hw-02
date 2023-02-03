@@ -16,7 +16,7 @@
     --portfolio-section-fone: #E5E5E5;
 }
     body{
-    font-family: Roboto-400, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--main-title-color);
     color: var(--text-color-link);
     }
@@ -247,29 +247,33 @@
         .portfolio-list-btms {}
 
         .main-btm-portfolio {
+            font-family: 'Roboto';
+            font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
             text-align: center;
             letter-spacing: 0.04em;
             color: var(--main-color-text);
             background : var(--color-for-btm-fone);
-                }
-        .main-btm-portfolio:hover,
-        .main-btm-portfolio:focus {
-            color: var(--color-for-btm-fone);
-        }
+            cursor: pointer;
+         }
     
         .another-btm-portfolio {
+            font-family: 'Roboto';
+            font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
             text-align: center;
             letter-spacing: 0.04em;
             color: var(--portfolio-another-btm-text);
             background: var(--portfolio-another-btm-fone);
+            cursor: pointer;
         }
+
         .another-btm-portfolio:hover,
         .another-btm-portfolio:focus {
-            color: var(--color-for-btm-fone);
+            color: var(--main-color-text);
+            background-color: var(--color-for-text-icon);
         }
 
 
